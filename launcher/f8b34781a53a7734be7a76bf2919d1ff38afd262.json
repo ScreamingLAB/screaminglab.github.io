@@ -1,0 +1,56 @@
+{
+    "pack-url": "https://www.dropbox.com/scl/fi/1v1j7ddw8fnsammpbc6tm/ae8cc1c0d5adfa48e9016eb3b072ba6ff201f47d.zip?rlkey=724h2per68ijc5v6dec9v4bsj&e=1&st=1x2tijzh&dl=1",
+    "pack-name": "SpookyWinter",
+    "version": 1,
+    "fabric-installer-version": "1.0.1",
+    "fabic-loader-version": "0.16.9",
+    "minecraft-version": "1.20.4",
+    "folder-relocations": [
+        {
+            "file-name": "sodium-fingerprint.json",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "sodium-mixins.properties",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "sodium-options.json",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "fabric/",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "fancymenu/",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "konkrete/",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "panoramica/",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "seriousplayeranimations/",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "voicechat/",
+            "destination": "config/",
+            "version": 1
+        }
+    ],
+    "folder-removals": []
+ }
