@@ -1,7 +1,7 @@
 {
     "pack-url": "https://www.dropbox.com/scl/fi/0nxjeera35s7enwwycyou/ae8cc1c0d5adfa48e9016eb3b072ba6ff201f47d.zip?rlkey=r2kb0syi8h6d39ifqysdspmop&st=9dkdtjzw&dl=1",
     "pack-name": "SpookyWinter",
-    "version": 2,
+    "version": 3,
     "fabric-installer-version": "1.0.1",
     "fabic-loader-version": "0.16.9",
     "minecraft-version": "1.20.4",
@@ -53,14 +53,14 @@
         },
         {
             "file-name": "fancymenu/options.txt",
-            "destination": "config/fancymenu/",
-            "version": 2
+            "destination": "config/fancymenu/options.txt",
+            "version": 3
         }
     ],
     "folder-removals": [
         {
             "file-name": "fancymenu/options.txt",
-            "version": 2
+            "version": 3
         }
     ]
  }
