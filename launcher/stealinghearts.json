@@ -17,11 +17,6 @@
             "version": 1
         },
         {
-            "file-name": "fancymenu/",
-            "destination": "config/",
-            "version": 1
-        },
-        {
             "file-name": "config/entity_model_features.json",
             "destination": "config/",
             "version": 1
