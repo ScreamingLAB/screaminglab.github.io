@@ -1,0 +1,86 @@
+{
+    "pack-url": "https://www.dropbox.com/scl/fi/78vp56uwor2vr3ms30drw/SHInternal.zip?rlkey=4bou8xbkwj559tomn1fnzg8v7&st=pi97j9s6&dl=1",
+    "pack-name": "SH Internal BetaTest",
+    "version": 1,
+    "fabric-installer-version": "1.0.1",
+    "fabic-loader-version": "0.16.10",
+    "minecraft-version": "1.20.4",
+    "folder-relocations": [
+        {
+            "file-name": "options.txt",
+            "destination": "",
+            "version": 1
+        },
+        {
+            "file-name": "servers.dat",
+            "destination": "",
+            "version": 1
+        },
+        {
+            "file-name": "config/entity_model_features.json",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/entity_texture_features.json",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/etf_warnings.json",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/iris.properties",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/NoCapes.json",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/sodium-fingerprint.json",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/sodium-mixins.properties",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/panoramica/",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/voicechat/",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/watermedia/",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/fabric/",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/fancymenu/",
+            "destination": "config/",
+            "version": 1
+        },
+        {
+            "file-name": "config/konkrete/",
+            "destination": "config/",
+            "version": 1
+        }
+    ],
+    "folder-removals": []
+ }
