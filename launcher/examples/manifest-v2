@@ -1,0 +1,28 @@
+{
+    "metadata": {
+        "download": "URL DESCARGA",
+        "name": "NOMBRE DEL PACK", // A partir de este se genera un hash SHA-1 del String que es como se llamará el .json y la instancia internamente
+        "version": 1,
+        "game": {
+            "installer": "1.0.1",
+            "loader": "0.16.10",
+            "minecraft": "1.20.4"
+        }
+    },
+    "downloader": [
+        {
+            "action": "COPY", // Puede ser COPY o REMOVE (Remove en version 1 será ignorado)
+            "hash": "SHA-1 del file",
+            "file": "path-to-file",
+            "destination": "path-to-destination", // Agregar un fix en código que si arrancan con '/' sea removido :P
+            "version": 1,
+            "override": false // Si esto está en false, este archivo tiene que ser idéntico a como está en la descarga
+        }
+    ],
+    "override-rules": [ // Reglas pensadas para excluir directorios
+        {
+            "action": "SKIP", // SKIP salta esta carpeta, FORCE obliga a leerla aunque OVERRIDE este en true (Pensado para actualizaciones o problemas futuros)
+            "accept": "file-path" // Todo lo que haya dentro de esto (Si es carpeta)
+        }
+    ]
+}
