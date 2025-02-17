@@ -1,7 +1,7 @@
 {
     "metadata": {
         "download": "URL DESCARGA",
-        "name": "NOMBRE DEL PACK", // A partir de este se genera un hash SHA-1 del String que es como se llamará el .json y la instancia internamente
+        "name": "NOMBRE DEL PACK",
         "version": 1,
         "game": {
             "installer": "1.0.1",
@@ -11,18 +11,18 @@
     },
     "downloader": [
         {
-            "action": "COPY", // Puede ser COPY o REMOVE (Remove en version 1 será ignorado)
+            "action": "COPY",
             "hash": "SHA-1 del file",
             "file": "path-to-file",
-            "destination": "path-to-destination", // Agregar un fix en código que si arrancan con '/' sea removido :P
+            "destination": "path-to-destination",
             "version": 1,
-            "override": false // Si esto está en false, este archivo tiene que ser idéntico a como está en la descarga
+            "override": false
         }
     ],
-    "override-rules": [ // Reglas pensadas para excluir directorios
+    "override-rules": [
         {
-            "action": "SKIP", // SKIP salta esta carpeta, FORCE obliga a leerla aunque OVERRIDE este en true (Pensado para actualizaciones o problemas futuros)
-            "accept": "file-path" // Todo lo que haya dentro de esto (Si es carpeta)
+            "action": "SKIP",
+            "accept": "file-path"
         }
     ]
 }
