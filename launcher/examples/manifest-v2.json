@@ -19,7 +19,6 @@
             "hash": "SHA-1 del file",
             "file": "path-to-file",
             "destination": "path-to-destination",
-            "version": 1,
             "override": false
         }
     ],
