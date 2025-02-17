@@ -34,7 +34,7 @@
             "file": "config/fancymenu/custom_gui_screens.txt",
             "destination": "config/fancymenu/custom_gui_screens.txt",
             "override": false
-        },
+        }
     ],
     "override-rules": []
 }
