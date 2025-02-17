@@ -1,6 +1,10 @@
 {
     "metadata": {
-        "download": "URL DESCARGA",
+        "pack": {
+            "url": "URL DESCARGA",
+            "size": -1,
+            "hash": "SHA-1 del zip"
+        },
         "name": "NOMBRE DEL PACK",
         "version": 1,
         "game": {
