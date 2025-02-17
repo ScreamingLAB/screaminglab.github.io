@@ -22,7 +22,7 @@
             "override": false
         },
         {
-            "action": "COPY",
+            "action": "REMOVE",
             "hash": "264c3167bc430734e8c9a0ccea0d07306817a676",
             "file": "fancymenu_fabric_3.3.2_MC_1.20.4.jar",
             "destination": "mods/fancymenu_fabric_3.3.2_MC_1.20.4.jar",
