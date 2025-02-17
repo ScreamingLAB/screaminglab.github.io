@@ -6,7 +6,7 @@
             "hash": "de566851b15725e42fe4661d1d87f445c210cb2f"
         },
         "name": "Manifest V2 Test",
-        "version": 1,
+        "version": 2,
         "game": {
             "installer": "1.0.1",
             "loader": "0.16.10",
