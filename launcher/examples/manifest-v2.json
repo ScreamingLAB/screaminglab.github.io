@@ -1,11 +1,11 @@
 {
     "metadata": {
         "pack": {
-            "url": "URL DESCARGA",
-            "size": -1,
-            "hash": "SHA-1 del zip"
+            "url": "https://www.dropbox.com/scl/fi/ybfhfyhegwgk5nxjh1dl4/Configs.zip?rlkey=65n02ozrn3rws5nbp8tixlzzv&st=0clh68ib&dl=1",
+            "size": 4876128,
+            "hash": "de566851b15725e42fe4661d1d87f445c210cb2f"
         },
-        "name": "NOMBRE DEL PACK",
+        "name": "Manifest V2 Test",
         "version": 1,
         "game": {
             "installer": "1.0.1",
@@ -16,16 +16,25 @@
     "downloader": [
         {
             "action": "COPY",
-            "hash": "SHA-1 del file",
-            "file": "path-to-file",
-            "destination": "path-to-destination",
+            "hash": "a959c2b9379d13c0f2098102d1a43fc6e2eef5e3",
+            "file": "fabric-api-0.97.2+1.20.4.jar",
+            "destination": "mods/fabric-api-0.97.2+1.20.4.jar",
             "override": false
-        }
-    ],
-    "override-rules": [
+        },
         {
-            "action": "SKIP",
-            "accept": "file-path"
-        }
-    ]
+            "action": "COPY",
+            "hash": "264c3167bc430734e8c9a0ccea0d07306817a676",
+            "file": "fancymenu_fabric_3.3.2_MC_1.20.4.jar",
+            "destination": "mods/fancymenu_fabric_3.3.2_MC_1.20.4.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "50b4602527a4e3cfea6016ec001f3b68ace1d65c",
+            "file": "config/fancymenu/custom_gui_screens.txt",
+            "destination": "config/fancymenu/custom_gui_screens.txt",
+            "override": false
+        },
+    ],
+    "override-rules": []
 }
