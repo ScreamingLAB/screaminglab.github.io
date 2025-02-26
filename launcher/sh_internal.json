@@ -90,7 +90,7 @@
             "file-name": "config/konkrete/",
             "destination": "config/",
             "version": 1
-        }
+        },
         {
             "file-name": "fancymenu_data/",
             "destination": "",
