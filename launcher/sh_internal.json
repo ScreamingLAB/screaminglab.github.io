@@ -1,7 +1,7 @@
 {
-    "pack-url": "https://www.dropbox.com/scl/fi/mfyb32y68bixeqyad6v4z/SH.zip?rlkey=hua7mbzl08ii3n8cf8t1k4doz&st=802x0fr6&dl=1",
+    "pack-url": "https://www.dropbox.com/scl/fi/mfyb32y68bixeqyad6v4z/SH.zip?rlkey=hua7mbzl08ii3n8cf8t1k4doz&st=7dgss86e&dl=1",
     "pack-name": "SH Internal BetaTest v2",
-    "version": 3,
+    "version": 4,
     "fabric-installer-version": "1.0.1",
     "fabic-loader-version": "0.16.10",
     "minecraft-version": "1.20.4",
@@ -10,6 +10,11 @@
             "file-name": "options.txt",
             "destination": "",
             "version": 1
+        },
+        {
+            "file-name": "servers.dat",
+            "destination": "",
+            "version": 4
         },
         {
             "file-name": "config/entity_model_features.json",
