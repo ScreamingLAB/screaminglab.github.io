@@ -36,5 +36,8 @@
             "override": false
         }
     ],
-    "override-rules": []
+    "override-rules": [],
+    "game-flags": [
+        "FULL_SCREEN"
+    ]
 }
