@@ -1,0 +1,601 @@
+{
+    "metadata": {
+        "pack": {
+            "url": "https://www.dropbox.com/scl/fi/ur5fl013b7qw3f6ck6nic/manifest.zip?rlkey=wyb6v8apeakg99a1jojsyqz0l&st=0jeokxx0&dl=1",
+            "size": 89875836,
+            "hash": "539d55397c4299ea73ba646d165f4e00486bdb26"
+        },
+        "name": "Internal ManifestV2 Test",
+        "version": 1,
+        "game": {
+            "installer": "1.0.1",
+            "loader": "0.16.10",
+            "minecraft": "1.20.4"
+        }
+    },
+    "downloader": [
+        {
+            "action": "COPY",
+            "hash": "e374f80329cea3d73e10e31839fe79d5a4fc0b30",
+            "file": "cloth-config-13.0.138-fabric.jar",
+            "destination": "mods/cloth-config-13.0.138-fabric.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "811c0f2fdd5cedb153560a9f8a8dd3f1d95b2534",
+            "file": "config/entity_model_features.json",
+            "destination": "config/entity_model_features.json",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "907d2d2c52d47b4f41ee991ba9692ad1bb667da0",
+            "file": "config/entity_texture_features.json",
+            "destination": "config/entity_texture_features.json",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "1573fc320a363b30a1a5e4cae1d4596ec177085d",
+            "file": "config/etf_warnings.json",
+            "destination": "config/etf_warnings.json",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "4da712d00f491af7dd9ac0fdb1093c6fbf4b3785",
+            "file": "config/fabric/indigo-renderer.properties",
+            "destination": "config/fabric/indigo-renderer.properties",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "aaf9ca57b6c107ca76c020736d94a7cef589127f",
+            "file": "config/fancymenu/assets/back.png",
+            "destination": "config/fancymenu/assets/back.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "1371e2aae52c19c65f5dde60f15b600304baa514",
+            "file": "config/fancymenu/assets/boton.png",
+            "destination": "config/fancymenu/assets/boton.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "85b78864d2442501da3729a1411e96b00d63ee7b",
+            "file": "config/fancymenu/assets/botonreborde.png",
+            "destination": "config/fancymenu/assets/botonreborde.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "d3b53e1320f8b9c8e90f2d4fe33224ed45970197",
+            "file": "config/fancymenu/assets/d.icns",
+            "destination": "config/fancymenu/assets/d.icns",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "4fc11d5727b89bf9472f73af4a321c93135a9710",
+            "file": "config/fancymenu/assets/holy.png",
+            "destination": "config/fancymenu/assets/holy.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "99eb3561a1a913ac091b2468886ac2739e4ce481",
+            "file": "config/fancymenu/assets/icono.png",
+            "destination": "config/fancymenu/assets/icono.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "0ac4d248d5fadb49dcb098a101431120a855b5ae",
+            "file": "config/fancymenu/assets/icono2.png",
+            "destination": "config/fancymenu/assets/icono2.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "6dcdc4685560cf585f11713634a110810c172dfc",
+            "file": "config/fancymenu/assets/lilith_simple_logo.png",
+            "destination": "config/fancymenu/assets/lilith_simple_logo.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "f644c77b6b3e979c980d758f0786329a7539ebe3",
+            "file": "config/fancymenu/assets/logogrande.png",
+            "destination": "config/fancymenu/assets/logogrande.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "89c286073fcf46ae42f79db4cdeb17cb25a7a206",
+            "file": "config/fancymenu/assets/loveloline1.png",
+            "destination": "config/fancymenu/assets/loveloline1.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "779a7831ad5361e7fb1871d4a690f5e0b1bbc6c3",
+            "file": "config/fancymenu/assets/stealing_hearts_logo.png",
+            "destination": "config/fancymenu/assets/stealing_hearts_logo.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "70448d81cfba777c8ab9918dda30d7a79c0af056",
+            "file": "config/fancymenu/customizablemenus.txt",
+            "destination": "config/fancymenu/customizablemenus.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "362482a8c367ddead033325b720170b1264f7f48",
+            "file": "config/fancymenu/customization/chat_options_screen_layout.txt",
+            "destination": "config/fancymenu/customization/chat_options_screen_layout.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "9c0de0d769fee69c3fdbf0b29cd4954ebdf100ce",
+            "file": "config/fancymenu/customization/controls_screen_layout.txt",
+            "destination": "config/fancymenu/customization/controls_screen_layout.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "c6dbc219c5c50740c372a0cf2bd1287864bf5a1a",
+            "file": "config/fancymenu/customization/disconnected_screen_layout.txt",
+            "destination": "config/fancymenu/customization/disconnected_screen_layout.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "dd25ba355fa314fa195cbedeabd386d6164c343b",
+            "file": "config/fancymenu/customization/language_select_screen_layout.txt",
+            "destination": "config/fancymenu/customization/language_select_screen_layout.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "c84f75c6694e3bedee8ac8f24eefc0b339b8a0aa",
+            "file": "config/fancymenu/customization/lilybell.txt",
+            "destination": "config/fancymenu/customization/lilybell.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "6063bca108fab8ac511d3a589d3a28aa735ef4bb",
+            "file": "config/fancymenu/customization/me.jellysquid.mods.sodium.client.gui.sodiumoptionsgui_layout.txt",
+            "destination": "config/fancymenu/customization/me.jellysquid.mods.sodium.client.gui.sodiumoptionsgui_layout.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "20ad93df33c538801608fe50358acad1dcdc9e05",
+            "file": "config/fancymenu/customization/net.minecraft.class_6599_layout.txt",
+            "destination": "config/fancymenu/customization/net.minecraft.class_6599_layout.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "15df0d113c541cf6353c42b47c2491d18197c5ad",
+            "file": "config/fancymenu/customization/options_screen_layout.txt",
+            "destination": "config/fancymenu/customization/options_screen_layout.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "d919c915c8558bb31d8ce1dd19c51de80d6464ce",
+            "file": "config/fancymenu/customization/pause_screen_layout.txt",
+            "destination": "config/fancymenu/customization/pause_screen_layout.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "9301bb6451778e3e871db5037a3f83eb56a72466",
+            "file": "config/fancymenu/customization/skin_customization_screen_layout.txt",
+            "destination": "config/fancymenu/customization/skin_customization_screen_layout.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "5e0613fb28a74a753ff850ded34dc8644c5a984e",
+            "file": "config/fancymenu/customization/sound_options_screen_layout.txt",
+            "destination": "config/fancymenu/customization/sound_options_screen_layout.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "50b4602527a4e3cfea6016ec001f3b68ace1d65c",
+            "file": "config/fancymenu/custom_gui_screens.txt",
+            "destination": "config/fancymenu/custom_gui_screens.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "a87d9eee1c6d38726797d4e611b3ce976cade110",
+            "file": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "destination": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "f1569161a6ad24cc61b02dece317ea16e351ff1e",
+            "file": "config/fancymenu/legacy_checklist.txt",
+            "destination": "config/fancymenu/legacy_checklist.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "7adc2c439c56ed5fc1772105422c94b4332c1803",
+            "file": "config/fancymenu/options.txt",
+            "destination": "config/fancymenu/options.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "5f6f3ee8fe1393b6bf480b362d3eb6d2d025a045",
+            "file": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_0.png",
+            "destination": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_0.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "6bd0ed6f0442b5b26366fd7097f2eb8343dd55aa",
+            "file": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_1.png",
+            "destination": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_1.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "658ba2a14a1b7c4898ac8f63aa376ad13de0439b",
+            "file": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_2.png",
+            "destination": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_2.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "db4cd2e9846d922eea38d398d47c37d335194416",
+            "file": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_3.png",
+            "destination": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_3.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "262cc74ed18f1eab3ecb0a6a5c021d8480efb32c",
+            "file": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_4.png",
+            "destination": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_4.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "53fb626da26e87c6c983c18e4f3d240cc50c2c45",
+            "file": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_5.png",
+            "destination": "config/fancymenu/panoramas/StealingHearts/panorama/panorama_5.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "8711007e543f92a501ea5f6e5920f43bd38a3370",
+            "file": "config/fancymenu/panoramas/StealingHearts/properties.txt",
+            "destination": "config/fancymenu/panoramas/StealingHearts/properties.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "059147f13e72f968c97ab327626878122cdfa967",
+            "file": "config/fancymenu/slideshows/StealingHearts/images/parte1.png",
+            "destination": "config/fancymenu/slideshows/StealingHearts/images/parte1.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "0f28e9c1f3e99f0b48239fc3f32038947a8310cb",
+            "file": "config/fancymenu/slideshows/StealingHearts/images/parte2.png",
+            "destination": "config/fancymenu/slideshows/StealingHearts/images/parte2.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "810081f26df238173e730773053e8cb804c1da4e",
+            "file": "config/fancymenu/slideshows/StealingHearts/images/parte3.png",
+            "destination": "config/fancymenu/slideshows/StealingHearts/images/parte3.png",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "7c49d34fbce8b86d14787fc785e153e894d675cf",
+            "file": "config/fancymenu/slideshows/StealingHearts/properties.txt",
+            "destination": "config/fancymenu/slideshows/StealingHearts/properties.txt",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "8bc3d8999f5dde0c62b31424d63dc7d046b70ba9",
+            "file": "config/fancymenu/ui_themes/dark.json",
+            "destination": "config/fancymenu/ui_themes/dark.json",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "fb42def9e33a2792c19002a717318ec733283e8d",
+            "file": "config/fancymenu/ui_themes/light.json",
+            "destination": "config/fancymenu/ui_themes/light.json",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "b41f9d7688944b0d96eaa089a5a5bb74af28d258",
+            "file": "config/fancymenu/user_variables.db",
+            "destination": "config/fancymenu/user_variables.db",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "ebe1b389a2e6f828c819d1a698c2c20fbff35dba",
+            "file": "config/gamma_utils.json5",
+            "destination": "config/gamma_utils.json5",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "02adaf2602f1ba03a9352db3d10a6fac3a02aea5",
+            "file": "config/konkrete/locals/de_de.local",
+            "destination": "config/konkrete/locals/de_de.local",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "42badc338e767559db38a67bd3e8020a92000e56",
+            "file": "config/konkrete/locals/en_us.local",
+            "destination": "config/konkrete/locals/en_us.local",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "adf2ded54b4952ca83af26a1217e2c5db8ac1429",
+            "file": "config/konkrete/locals/pl_pl.local",
+            "destination": "config/konkrete/locals/pl_pl.local",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "9c324fb4d33106366e6cbb5400c8c34f11539d34",
+            "file": "config/konkrete/locals/pt_br.local",
+            "destination": "config/konkrete/locals/pt_br.local",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "9843d7b17c886a1d3f7642b41ecbe82b7dc6062b",
+            "file": "config/lambdynlights.toml",
+            "destination": "config/lambdynlights.toml",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "ab6e3f7ca2af445406c3b075f86beaf802bc7d1b",
+            "file": "config/NoCapes.json",
+            "destination": "config/NoCapes.json",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "80d6c710e40c5bc33431b99bbd3923409240ca6d",
+            "file": "config/sdrp-common.json",
+            "destination": "config/sdrp-common.json",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "bc2db624d3907a0b960e35521c9bb0d0f05bf569",
+            "file": "config/simple-rpc/server-entries.toml",
+            "destination": "config/simple-rpc/server-entries.toml",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "121b6b870eca35cae67ab4daaa7a540f153c0233",
+            "file": "config/simple-rpc/simple-rpc.toml",
+            "destination": "config/simple-rpc/simple-rpc.toml",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "6178c58c2c798d9ce2548f051e67f24e4d10b463",
+            "file": "config/sodium-fingerprint.json",
+            "destination": "config/sodium-fingerprint.json",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "b1fdf3038060accec696177db699276ed074a6d2",
+            "file": "config/sodium-mixins.properties",
+            "destination": "config/sodium-mixins.properties",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "ec80b098cc66d77092a0869ad4bed3799972c45d",
+            "file": "config/sodium-options.json",
+            "destination": "config/sodium-options.json",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "ccd3de3bb39c3307cc67e2cc2e4c9f76cd097935",
+            "file": "config/voicechat/translations.properties",
+            "destination": "config/voicechat/translations.properties",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "07fe2ac89d3d7eb22d6530afa5f9ac0c66527024",
+            "file": "config/voicechat/username-cache.json",
+            "destination": "config/voicechat/username-cache.json",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "97fb9f1b9343969ea9cc4653b77e19e98a8d1f5c",
+            "file": "config/voicechat/voicechat-client.properties",
+            "destination": "config/voicechat/voicechat-client.properties",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "2f13bcfb161c39587a2dc55c727de31777cd414b",
+            "file": "config/voicechat/voicechat-server.properties",
+            "destination": "config/voicechat/voicechat-server.properties",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "4eaca99c316dc0e047aa47897d73689054c1474d",
+            "file": "config/voicechat/voicechat-volumes.properties",
+            "destination": "config/voicechat/voicechat-volumes.properties",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "53ef254bc11cd5d390f6b6a93dee177da7d5e6b9",
+            "file": "config/watermedia/assets/loading.gif",
+            "destination": "config/watermedia/assets/loading.gif",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "e9045bcd2ab64d184ca247bf454978305f0ac0dd",
+            "file": "entity_model_features_fabric_1.20.4-2.4.1.jar",
+            "destination": "mods/entity_model_features_fabric_1.20.4-2.4.1.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "577869a6c1b525223b4f327938da3a428dcf61a2",
+            "file": "entity_texture_features_fabric_1.20.4-6.2.9.jar",
+            "destination": "mods/entity_texture_features_fabric_1.20.4-6.2.9.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "a959c2b9379d13c0f2098102d1a43fc6e2eef5e3",
+            "file": "fabric-api-0.97.2+1.20.4.jar",
+            "destination": "mods/fabric-api-0.97.2+1.20.4.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "71b512c0aef621cf4c7351790ac7bbeca78ab9cd",
+            "file": "fancymenu_data/default_scale_set.fm",
+            "destination": "fancymenu_data/default_scale_set.fm",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "97acca9a1defdddcf06c35a85e208c6d0c25203f",
+            "file": "fancymenu_data/last_world.fmdata",
+            "destination": "fancymenu_data/last_world.fmdata",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "264c3167bc430734e8c9a0ccea0d07306817a676",
+            "file": "fancymenu_fabric_3.3.2_MC_1.20.4.jar",
+            "destination": "mods/fancymenu_fabric_3.3.2_MC_1.20.4.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "d19d129fcdd5ed34a9d1dd98cdb616a56bc86d04",
+            "file": "Gamma-Utils-1.7.19-mc1.20.4.jar",
+            "destination": "mods/Gamma-Utils-1.7.19-mc1.20.4.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "27b801671b199e82304d6a542aa977166745cdbc",
+            "file": "konkrete_fabric_1.9.2_MC_1.20.4.jar",
+            "destination": "mods/konkrete_fabric_1.9.2_MC_1.20.4.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "dda369e31cf860db07e1926e49590704729a0084",
+            "file": "manifest.json",
+            "destination": "",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "15eeff0c0fd8b4734492915c656077592b2d9e67",
+            "file": "melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+            "destination": "mods/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "e89a8cca215c4937f708937bfa0439efe1614ea5",
+            "file": "nocapes-1.0.3.jar",
+            "destination": "mods/nocapes-1.0.3.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "3fcf43125c3e4ff6275bc8dfe6129a28c9475ea9",
+            "file": "options.txt",
+            "destination": "",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "4a138ac6e35fce271e6e78ffa6dcd1367cf52e60",
+            "file": "servers.dat",
+            "destination": "",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "4c38d7b01660a27a98406767c613b3f28b6c9dfe",
+            "file": "sodium-fabric-0.5.8+mc1.20.4.jar",
+            "destination": "mods/sodium-fabric-0.5.8+mc1.20.4.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "ca9cc7406abd8756afa5ecb3fdde4398c3729c0c",
+            "file": "valentines-1.0.0.jar",
+            "destination": "mods/valentines-1.0.0.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "d010762f2347e087643e5a8e38f9ab03e3baf6ea",
+            "file": "VideoPlayer-3.0.5-FABRIC-1.20.X-3.0.5.jar",
+            "destination": "mods/VideoPlayer-3.0.5-FABRIC-1.20.X-3.0.5.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "97b48e6f1cabe3b384effe5958abd55b78574611",
+            "file": "voicechat-fabric-1.20.4-2.5.22.jar",
+            "destination": "mods/voicechat-fabric-1.20.4-2.5.22.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "579c41ae9dfc2a44c2164c84e8e5062dba30cc74",
+            "file": "watermedia-2.0.75.jar",
+            "destination": "mods/watermedia-2.0.75.jar",
+            "override": false
+        }
+    ],
+    "override-rules": [],
+    "game-flags": []
+}
