@@ -1,0 +1,36 @@
+{
+    "metadata": {
+        "pack": {
+            "url": "insert manifest.zip url",
+            "size": 10170912,
+            "hash": "daa462066ad62e9f30591a16a897a3dbff245da1"
+        },
+        "name": "UHC Internal",
+        "version": 1,
+        "game": {
+            "installer": "1.0.1",
+            "loader": "0.16.10",
+            "minecraft": "1.20.4"
+        }
+    },
+    "downloader": [
+        {
+            "action": "COPY",
+            "hash": "a959c2b9379d13c0f2098102d1a43fc6e2eef5e3",
+            "file": "fabric-api-0.97.2+1.20.4.jar",
+            "destination": "mods/fabric-api-0.97.2+1.20.4.jar",
+            "override": false
+        },
+        {
+            "action": "COPY",
+            "hash": "97b48e6f1cabe3b384effe5958abd55b78574611",
+            "file": "voicechat-fabric-1.20.4-2.5.22.jar",
+            "destination": "mods/voicechat-fabric-1.20.4-2.5.22.jar",
+            "override": false
+        }
+    ],
+    "override-rules": [],
+    "game-flags": [
+        "DISABLE_DISCORD_SDK"
+    ]
+}
