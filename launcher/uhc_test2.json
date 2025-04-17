@@ -416,7 +416,5 @@
         }
     ],
     "override-rules": [],
-    "game-flags": [
-        "DISABLE_DISCORD_SDK"
-    ]
+    "game-flags": []
 }
